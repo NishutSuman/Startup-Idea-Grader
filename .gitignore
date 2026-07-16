@@ -1,0 +1,22 @@
+# secrets & local
+.env
+backend/.env
+*.db
+backend/history.db
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+.env.local
+frontend/.env.local
+
+# os
+.DS_Store
+sample_ideas.txt
