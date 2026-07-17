@@ -6,11 +6,10 @@ seasoned investor would: problem, market, product, moat, finance, go-to-market, 
 
 Built as the assignment for the Program Manager (Technology and AI) role at Mesa School of Business.
 
-> **Deployment note (please read):** On the night this was submitted, GitHub sign-in and every
-> third-party Git connector I tried (Render, Railway, Koyeb, Vercel) were failing to authenticate,
-> which blocked setting up the hosted link in time. The app runs fully in two commands (see
-> [Run locally](#run-locally)), a `Dockerfile` is included so it deploys anywhere once the
-> connectors recover, and I am glad to give a live walkthrough on a call.
+**Live demo:** https://startup-idea-grader-3aum.vercel.app
+
+Frontend on Vercel, backend on Render. The backend runs on a free tier that sleeps after a period
+of inactivity, so the very first request may take up to a minute to wake, then it is fast.
 
 ## Screenshots
 
